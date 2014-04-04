@@ -1,7 +1,7 @@
 <h2>Hello, you have reached the index page</h2>
 
 <div class='hrform'>
-  <%= form_tag do %>
+  <%= form_tag(newlog_path, method: "post") do %>
     <%= label_tag(:q, "Initials:") %>
     <%= text_field_tag(:q) %><br>
     <%= label_tag(:q, "Heart rate:") %>
