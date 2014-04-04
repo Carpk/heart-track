@@ -11,3 +11,30 @@
  *= require_self
  *= require_tree .
  */
+
+ body {
+  margin: 0;
+ }
+
+.content {
+  margin: 60px;
+ }
+
+.header {
+  width: 100%;
+  background: red;
+  height: 100px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.header h1 {
+  float: left;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.hrform {
+  margin-top: 30px;
+  margin-right: 80px;
+  float: right;
+}

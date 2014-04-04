@@ -1,1 +1,13 @@
 <h2>Hello, you have reached the index page</h2>
+
+<div class='hrform'>
+  <%= form_tag do %>
+    <%= label_tag(:q, "Initials:") %>
+    <%= text_field_tag(:q) %><br>
+    <%= label_tag(:q, "Heart rate:") %>
+    <%= text_field_tag(:q) %><br>
+    <%= submit_tag("Search") %>
+  <% end %>
+</div>
+
+<div class='content'>This site is dedicated to helping you log and track your max heartrate.</div>
