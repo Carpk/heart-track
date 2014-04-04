@@ -1,0 +1,9 @@
+<h2>Create your account:</h2>
+
+<%= form_for @user, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
+  <%= label_tag(:q, "Initials:") %>
+  <%= f.text_field :initials %><br>
+  <%= label_tag(:q, "Birthdate:") %>
+  <%= f.date_field :birthdate %><br>
+  <%= f.submit "Create" %>
+<% end %>

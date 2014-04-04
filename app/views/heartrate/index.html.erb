@@ -1,5 +1,7 @@
 <h2>Hello, you have reached the index page</h2>
 
+<%= link_to "create_account", (new_user_path) %>
+
 <div class='hrform'>
   <%= form_tag(newlog_path, method: "post") do %>
     <%= label_tag(:q, "Initials:") %>
