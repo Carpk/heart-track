@@ -1,6 +1,3 @@
-<h2>Hello, you have reached the index page</h2>
-
-<%= link_to "create_account", (new_user_path) %>
 
 <div class='hrform'>
   <%= form_tag(newlog_path, method: "post") do %>
@@ -12,4 +9,14 @@
   <% end %>
 </div>
 
-<div class='content'>This site is dedicated to helping you log and track your max heartrate.</div>
+<div class='content'>
+  <h2>Welcome to HeartLine</h2>
+  <p>This site is dedicated to helping you log, track, and compare your heart health over time. Mainly you will use the form to the right to update your profile to continously track your heart rate. You can create an account at the bottom of the page, search through spcific age groups, or search for your profile directly.</p>
+</div>
+
+<div class='nav'>
+  <%= link_to "create account", (new_user_path) %>
+  <%= link_to "age group", (new_user_path) %>
+  <%= link_to "age group", (new_user_path) %>
+  <%= link_to "age group", (new_user_path) %>
+</div>

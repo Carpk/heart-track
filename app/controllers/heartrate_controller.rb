@@ -1,4 +1,5 @@
 class HeartrateController < ApplicationController
+  
   def create
      # Users.find_by(initials: params[])
     p params

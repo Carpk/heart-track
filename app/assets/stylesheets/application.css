@@ -14,12 +14,15 @@
 
  body {
   margin: 0;
+  /*height: 450px;*/
   /*background: #FFABAB;*/
 
  }
 
 .content {
   margin: 60px;
+  width: 900px;
+  float: left;
  }
 
 .header {
@@ -37,7 +40,21 @@
 }
 
 .hrform {
-  margin-top: 30px;
+  margin-top: 90px;
   margin-right: 80px;
   float: right;
+}
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 325px;
+  margin-bottom: 100px;
+  /*float: bottom;*/
+  /*margin-right: auto;*/
+  margin-left: 500px;
+}
+
+.nav a {
+  padding: 3px
 }
