@@ -1,0 +1,2 @@
+module HeartrateHelper
+end

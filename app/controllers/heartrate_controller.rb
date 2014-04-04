@@ -1,0 +1,2 @@
+class HeartrateController < ApplicationController
+end
