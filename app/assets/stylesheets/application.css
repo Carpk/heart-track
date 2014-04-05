@@ -29,6 +29,13 @@
   margin: 60px;
  }
 */
+
+.error_msg {
+  margin-top: 25px;
+  margin-left: 15px;
+  color: red;
+}
+
 .header {
   width: 100%;
   background: #E31919;
@@ -41,6 +48,10 @@
   float: left;
   margin-top: 30px;
   margin-left: 30px;
+}
+
+.header img {
+  margin-left: 25px;
 }
 
 .hrform {
