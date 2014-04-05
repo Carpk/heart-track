@@ -2,7 +2,7 @@ class CreateHeartlogs < ActiveRecord::Migration
   def change
     create_table :heartlogs do |t|
       t.references :user
-      t.datetime   :logdate
+      t.integer    :logdate
       t.integer    :heartrate
       
       t.timestamps

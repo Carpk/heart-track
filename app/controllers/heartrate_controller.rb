@@ -10,4 +10,10 @@ class HeartrateController < ApplicationController
       render :index
     end
   end
+
+  # private
+
+  # def user_params
+  #   params.require(:Heart).permit(:initials, :birthdate, :password)
+  # end
 end
