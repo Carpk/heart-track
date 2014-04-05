@@ -18,4 +18,4 @@ Then open browser to [http://localhost:3000/](http://localhost:3000/)
 
 ### Screenshot
 
-![](https://raw.githubusercontent.com/Carpk/heart-track/master/app/assets/images/Screenshot%20from%202014-04-04%2017:59:33.png)
+![](https://raw.githubusercontent.com/Carpk/heart-track/master/app/assets/images/Screenshot%20from%202014-04-04%2023:38:20.png)
