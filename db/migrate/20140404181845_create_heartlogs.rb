@@ -1,9 +1,10 @@
 class CreateHeartlogs < ActiveRecord::Migration
   def change
     create_table :heartlogs do |t|
-      t.references :user_id
+      t.references :user
       t.datetime   :logdate
-      t.integer    :maxhr
+      t.integer    :heartrate
+      
       t.timestamps
     end
   end

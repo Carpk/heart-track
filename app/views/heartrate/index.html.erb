@@ -2,10 +2,10 @@
 <div class='hrform'>
   <%= form_tag(newlog_path, method: "post") do %>
     <%= label_tag(:q, "Initials:") %>
-    <%= text_field_tag(:q) %><br>
+    <%= text_field_tag(:initials) %><br>
     <%= label_tag(:q, "Heart rate:") %>
-    <%= text_field_tag(:q) %><br>
-    <%= submit_tag("Search") %>
+    <%= text_field_tag(:heartrate) %><br>
+    <%= submit_tag("Enter") %>
   <% end %>
 </div>
 

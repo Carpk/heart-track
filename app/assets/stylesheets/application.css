@@ -25,6 +25,10 @@
   float: left;
  }
 
+/* .create_form {
+  margin: 60px;
+ }
+*/
 .header {
   width: 100%;
   background: #E31919;
@@ -41,14 +45,14 @@
 
 .hrform {
   margin-top: 90px;
-  margin-right: 80px;
+  margin-right: 100px;
   float: right;
 }
 
 .nav {
   position: fixed;
   bottom: 0;
-  width: 325px;
+  width: 350px;
   margin-bottom: 100px;
   /*float: bottom;*/
   /*margin-right: auto;*/
@@ -56,5 +60,8 @@
 }
 
 .nav a {
-  padding: 3px
+  margin: 0;
+  padding: 3px 5px 3px 5px;
+  border: 1px solid;
+  color: black;
 }
