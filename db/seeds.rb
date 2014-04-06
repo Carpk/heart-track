@@ -9,10 +9,16 @@
 
 User.create(initials: "sk", birthdate: "1980-09-01", password: "password")
 
-hr=140
-date=2013060814
-30.times do
-  hr+=1 if rand(1..3) == 2
-  date+=rand(300..700)
+hr=145
+date=2013060114
+10.times do
+  hr+=1 #if rand(1..2) == 2
+  date+=rand(300..475)
+  Heartlog.create(user_id: 1, heartrate: hr, logdate: date)
+end
+date=2013060114
+10.times do
+  hr+=1 #if rand(1..2) == 2
+  date+=rand(300..575)
   Heartlog.create(user_id: 1, heartrate: hr, logdate: date)
 end

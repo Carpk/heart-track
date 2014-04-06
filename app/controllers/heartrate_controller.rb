@@ -3,7 +3,7 @@ class HeartrateController < ApplicationController
   def create
     @user = User.find_by(initials: params[:initials])
     if @user != nil
-      Heartlog.create(user_id: @user.id, heartrate: params[:heartrate])
+      Heartlog.create(user_id: @user.id, logdate: Time.now, heartrate: params[:heartrate])
       redirect_to user_path(@user.id)
     else
       @error = "User initials not found"

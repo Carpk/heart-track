@@ -1,4 +1,4 @@
-<h1>Welcome to your past progress</h1>
+<h1>Welcome to your past progress, <%= @user.initials.upcase %></h1>
 
 
-<%= line_chart @hrlog%>
+<%= line_chart @hrlog, min: 125, max: 200%>
